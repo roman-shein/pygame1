@@ -24,7 +24,6 @@ if __name__ == "__main__":
     screen.fill("black")
     draw(screen)
     pygame.display.flip()
-
     while pygame.event.wait().type != pygame.QUIT:
         pass
 
