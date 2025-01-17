@@ -13,6 +13,7 @@ def print_num(screen):
 
     screen.blit(text, (text_x, text_y))
 
+
 if __name__ == "__main__":
     pygame.init()
     size = width, height = 200, 200
